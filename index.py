@@ -89,6 +89,6 @@ while (startDate <= endDate):
 
     startDate += timedelta(days=1)
 
-with open(f'/mnt/c/Users/david/Desktop/Contpaq+{fechaInicio.date()}+{endDate.date()}.txt', 'w') as txt_file:
+with open(f'Contpaq+{fechaInicio.date()}+{endDate.date()}.txt', 'w') as txt_file:
     for line in text:
         txt_file.write(line + "\n")
