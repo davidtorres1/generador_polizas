@@ -1,0 +1,17 @@
+backports.statistics==0.1.0
+cryptography==2.8
+Cython==0.29.32
+dl==0.1.0
+dnspython==2.2.1
+gssapi==1.8.1
+ipaddr==2.2.0
+keyring==18.0.1
+lz4==4.0.2
+mypy_extensions==0.4.3
+mysql_connector_python==8.0.30
+numpy==1.23.3
+oci==2.82.0
+ordereddict==1.1
+sqlparse==0.4.2
+wincertstore==0.2.1
+zstandard==0.18.0
