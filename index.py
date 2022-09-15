@@ -39,7 +39,7 @@ query.execute('SELECT fecha_movimiento FROM CONTAB_DETALLE_POLIZAS ORDER BY fech
 startDate = query.fetchone()[0]
 fechaInicio = startDate
 
-endDate = datetime(2015, 12, 31)
+endDate = datetime(2014, 12, 31)
 
 text = []
 
